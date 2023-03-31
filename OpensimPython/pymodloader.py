@@ -3,7 +3,8 @@ clr.AddReference('OpenSim.Framework')
 clr.AddReference('OpenSim.Region.Framework')
 
 import sys
-sys.path.append('/usr/lib/python2.6/') #'ScriptEngines/Lib') # stdlib seems to live here
+#sys.path.append('/usr/lib/python2.7/') #'ScriptEngines/Lib') # stdlib seems to live here
+sys.path.append('/usr/lib/python3.4/') #'ScriptEngines/Lib') # stdlib seems to live here
 
 from OpenSim.Region.Framework.Interfaces import IRegionModule
 #import textcreate, pictureframe, toggleboxcolor, oukautil
